@@ -1,7 +1,7 @@
 
-package repositeries;
+package com.codeclan.example.employee_tracker.repositeries;
 
-import models.Employee;
+import com.codeclan.example.employee_tracker.models.Employee;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

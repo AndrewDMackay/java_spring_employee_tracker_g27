@@ -1,5 +1,5 @@
 
-package models;
+package com.codeclan.example.employee_tracker.models;
 
 import javax.persistence.*;
 

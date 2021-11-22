@@ -1,10 +1,11 @@
+
 package com.codeclan.example.employee_tracker;
 
-import models.Employee;
+import com.codeclan.example.employee_tracker.models.Employee;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import repositeries.EmployeeRepository;
+import com.codeclan.example.employee_tracker.repositeries.EmployeeRepository;
 
 @SpringBootTest
 class EmployeeTrackerApplicationTests {

@@ -1,12 +1,12 @@
 
-package controllers;
+package com.codeclan.example.employee_tracker.controllers;
 
-import models.Employee;
+import com.codeclan.example.employee_tracker.models.Employee;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import repositeries.EmployeeRepository;
+import com.codeclan.example.employee_tracker.repositeries.EmployeeRepository;
 
 import java.util.List;
 import java.util.Optional;
